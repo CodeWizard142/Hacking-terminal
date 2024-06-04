@@ -8,7 +8,7 @@ The simulation displays a series of messages with a delay between each, accompan
 
 ## Demo
 
-![Hacking Terminal Demo](./assets/demo.gif)
+![Hacking Terminal Demo](./assets/image.png)
 
 ## Features
 
