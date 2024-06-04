@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hacking Terminal</title>
+    <link rel="icon" href="./assets/mb_logo.svg" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white;
+        font-family: "Reddit Mono", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      .animated-dot {
+        color: black;
+      }
+      .tr {
+        transition: 0.5s linear infinite;
+      }
+      .container {
+        display: inline;
+        
+      }
+      .container div {
+        height: 3px;
+        width: 3px;
+        border-radius: 50%;
+        background-color: white;
+        display: inline-block;
+        margin: 0px;
+        animation: scaling 2.5s ease-in-out infinite;
+      }
+
+      @keyframes scaling {
+        0% {
+          transform: scale(0.5);
+        }
+        50% {
+          transform: scale(1);
+        }
+      }
+
+      .container div:nth-child(1) {
+        animation-delay: 0;
+      }
+
+      .container div:nth-child(2) {
+        animation-delay: 0.2s;
+      }
+
+      .container div:nth-child(3) {
+        animation-delay: 0.4s;
+      }
+
+      .container div:nth-child(4) {
+        animation-delay: 0.8s;
+      }
+
+      .container div:nth-child(5) {
+        animation-delay: 0.1s;
+      }
+      p{
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="text"><p>
+      Microsoft Windows [Version 10.0.22631.3672] <br />
+      (c) Microsoft Corporation. All rights reserved.
+    </p>
+    <br />
+    <br />
+    <p class="custom"></p></div>
+    
+    <div class="container" style="display: none;">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
