@@ -20,4 +20,4 @@ The simulation displays a series of messages with a delay between each, accompan
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/hacking-terminal.git
+   git clone https://github.com/yourusername/Hacking-terminal.git
